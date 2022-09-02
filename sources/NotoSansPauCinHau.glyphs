@@ -94,6 +94,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -116,10 +120,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.002";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2017-11-03 15:08:16 +0000";
@@ -253,7 +253,7 @@ nodes = (
 width = 600;
 }
 );
-note = .notdef;
+note = ".notdef";
 },
 {
 glyphname = NULL;
@@ -292,8 +292,8 @@ note = space;
 unicode = 0020;
 },
 {
-glyphname = uni00A0;
-lastChange = "2017-12-06 17:49:08 +0000";
+glyphname = nbspace;
+lastChange = "2022-09-02 06:57:19 +0000";
 layers = (
 {
 layerId = "7C5BF59D-7654-4B4F-ABB3-02620379C849";
